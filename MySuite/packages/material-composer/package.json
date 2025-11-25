@@ -46,9 +46,9 @@
     ]
   },
   "dependencies": {
-    "@material-composer/patch-material": "^0.1.2",
-    "fp-ts": "^2.12.3",
-    "shader-composer": "^0.4.1",
+    "@material-composer/patch-material": "^0.1.3",
+    "fp-ts": "^2.16.11",
+    "shader-composer": "^0.4.9",
     "shader-composer-toybox": "^0.1.3"
   },
   "peerDependencies": {

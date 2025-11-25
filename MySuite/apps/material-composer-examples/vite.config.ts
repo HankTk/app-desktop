@@ -7,7 +7,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: [
       "material-composer",
-      "material-composer-r3f",
+      "material-composer-r3f"
+    ],
+    include: [
       "@material-composer/patch-material"
     ]
   }

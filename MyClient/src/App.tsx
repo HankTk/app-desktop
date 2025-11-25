@@ -35,7 +35,11 @@ export function App() {
     return (
         <>
             <GlobalStyle/>
-            <BrowserRouter>
+            <BrowserRouter
+                future={{
+                    v7_startTransition: true,
+                    v7_relativeSplatPath: true,
+                }}>
                 <Routes>
                     <Route path={`*`} element={<Navigate to="/home/components" replace />} />
                     <Route path={`/home`} element={<FxAppContainer />}>

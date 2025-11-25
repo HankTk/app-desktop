@@ -9,11 +9,10 @@ export default class FxCommonPageMenu extends Component<{ menuData: any }> {
         const {menuData} = this.props;
 
         const pageMenu = menuData.map((item: any)=>
-            <FxLinkButtonPrimary>
+            <FxLinkButtonPrimary key={item.id}>
                 <Link
                     style={{color: '#1976d2'}}
-                    to={{ pathname: item.route, search: `${item.search}` }}
-                    key={item.id}>
+                    to={{ pathname: item.route, search: `${item.search}` }}>
                     {item.title}
                 </Link>
             </FxLinkButtonPrimary>

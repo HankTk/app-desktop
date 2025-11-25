@@ -29,6 +29,6 @@
     "@shader-composer/core": ">=0.4.9"
   },
   "devDependencies": {
-    "@shader-composer/core": "workspace:^0.4.9"
+    "@shader-composer/core": "workspace:^"
   }
 }

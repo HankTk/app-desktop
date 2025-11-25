@@ -81,7 +81,7 @@ module.exports = require("electron");
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
 (() => {
 /*!**************************!*\
   !*** ./electron/main.ts ***!
@@ -95,6 +95,7 @@ let mainWindow;
 //   process.env.NODE_ENV === 'production'
 //     ? process.resourcesPath
 //     : app.getAppPath()
+
 function createWindow() {
   mainWindow = new electron__WEBPACK_IMPORTED_MODULE_0__.BrowserWindow({
     // icon: path.join(assetsPath, 'assets', 'icon.png'),

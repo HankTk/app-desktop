@@ -6,6 +6,15 @@ module.exports = [
   {
     test: /\.(m?js|node)$/,
     parser: { amd: false },
+    exclude: [
+      /node_modules\/@mui/,
+      /node_modules\/highcharts/,
+      /node_modules\/@react-spring/,
+      /node_modules\/@react-three/,
+      /node_modules\/three/,
+      /node_modules\/@tanstack/,
+      /node_modules\/material-react-table/,
+    ],
     use: {
       loader: '@marshallofsound/webpack-asset-relocator-loader',
       options: {

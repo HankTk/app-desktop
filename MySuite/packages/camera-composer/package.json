@@ -40,7 +40,7 @@
     ]
   },
   "dependencies": {
-    "fp-ts": "^2.12.3"
+    "fp-ts": "^2.16.11"
   },
   "peerDependencies": {
     "@react-three/fiber": "^8.7.0",

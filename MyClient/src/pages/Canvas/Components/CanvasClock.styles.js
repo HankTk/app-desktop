@@ -1,4 +1,6 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
+// Import image so webpack processes it with file-loader
+import clockImage from "../../../../assets/clock.png";
 
 export const ClockContainer = styled.div`
   width: 100%;
@@ -16,7 +18,7 @@ export const ClockContainer = styled.div`
 
 export const Clock = styled.div`
   position: relative;
-  background: url("/clock.png");
+  background-image: url(${clockImage});
   width: 350px;
   height: 350px;
   display: flex;

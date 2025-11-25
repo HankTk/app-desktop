@@ -41,11 +41,11 @@
   },
   "dependencies": {
     "@hmans/use-const": "^0.0.1",
-    "@hmans/use-mutable-list": "workspace:^0.0.2",
-    "@hmans/use-nullable-state": "workspace:^0.0.1",
-    "fp-ts": "^2.12.3",
-    "shader-composer": "workspace:^0.4.9",
-    "@shader-composer/postprocessing": "workspace:^0.0.1",
-    "test": "^3.2.1"
+    "@hmans/use-mutable-list": "workspace:^",
+    "@hmans/use-nullable-state": "workspace:^",
+    "@shader-composer/postprocessing": "workspace:^",
+    "fp-ts": "^2.16.11",
+    "shader-composer": "workspace:^",
+    "test": "^3.3.0"
   }
 }
