@@ -107,7 +107,7 @@ function createWindow() {
       nodeIntegration: false,
       contextIsolation: true,
       devTools: true,
-      preload: '/Users/hidenori/Documents/React/my-desktop/MyClient/.webpack/renderer/main_window/preload.js'
+      preload: '/Users/hidenori/Documents/React/app-desktop/MyClient/.webpack/renderer/main_window/preload.js'
     }
   });
   mainWindow.loadURL('http://localhost:3000/main_window');
